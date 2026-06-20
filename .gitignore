@@ -1,0 +1,28 @@
+# --- Секреты: НИКОГДА не коммитить реальный конфиг с токеном ---
+config.yaml
+
+# --- Данные, базы, логи (генерируются при работе бота) ---
+data/
+logs/
+*.db
+*.sqlite3
+*.log
+*.xlsx
+
+# --- Кэш моделей (FinBERT и т.п.) ---
+models/
+.cache/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- ОС / редакторы ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

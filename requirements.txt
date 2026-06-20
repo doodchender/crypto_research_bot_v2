@@ -1,0 +1,27 @@
+# Telegram (async, с планировщиком задач)
+python-telegram-bot[job-queue]>=20.0,<23.0
+
+# HTTP / API
+aiohttp
+requests
+PyYAML
+pytz
+
+# Данные и анализ
+pandas
+numpy
+scipy
+statsmodels
+scikit-learn
+arch
+yfinance
+
+# Новости и сентимент
+feedparser
+pytrends
+transformers      # FinBERT для анализа сентимента
+torch             # бэкенд для transformers (CPU-версии достаточно)
+
+# Отчёты и графики
+matplotlib
+openpyxl
